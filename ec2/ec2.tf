@@ -19,8 +19,8 @@ variable "key_pair_name" {
 
 }
 
-resource "aws_security_group" "ec2_sg" {
-  name        = join("", [var.name, "-", "ec2-sg"])
+resource "aws_security_group" "Jenkins-CICD-Infra" {
+  name        = join("", [var.name, "-", "Jenkins-CICD-Infra"])
   description = "Allow  traffic for http and ssh"
 
 
