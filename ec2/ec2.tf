@@ -19,8 +19,8 @@ variable "key_pair_name" {
 
 }
 
-resource "aws_security_group" "Jenkins-CICD-Infra" {
-  name        = join("", [var.name, "-", "Jenkins-CICD-Infra"])
+resource "aws_security_group" "ec2_sg" {
+  name        = join("", [var.name, "-", "ec2-sg"])
   description = "Allow  traffic for http and ssh"
 
 
@@ -69,7 +69,7 @@ resource "aws_instance" "web_server" {
   iam_instance_profile   = aws_iam_instance_profile.instance_profile.name
   tags                   = merge(var.tags, { Name = join("", [var.name, "-", "webserver"]) }, {Environment = var.name})
 
-  # best practices as per checkov scanner
+  /* # best practices as per checkov scanner */
 
   monitoring = true
   ebs_optimized = true
