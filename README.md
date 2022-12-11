@@ -105,7 +105,7 @@ Once both the above steps are done click on Save.
 
 2) #### Skipping all the checks on the Jenkins file comment the checkov scan lines accordingly with # (sure to shell)
 
-This is the definition of a CI-CD with Terraform intergrated with slack
+This is the definition of a CI-CD with Terraform intergration with slack
 
 ## Finally observe the whole flow and understand the integrations :) 
 # Happy learning, everyone 😊 😊
