@@ -20,7 +20,7 @@ Fully automated and secured Terraform infra pipeline
     - After launching this Jenkins server, attach a tag as **Key=Application, value=jenkins**
 
 3) ###### Slack 
-    - **Join the slack channel https://join.slack.com/t/slack-wcl4742/shared_invite/zt-1kid01o3n-W47OUTHBd2ZZpSzGnow1Wg**
+    - **Join the slack channel https://app.slack.com/huddle/T04ENDDBK0B/C04E8G818MV** 
     - **Join into the channel "#team-devops"**
 
 ### Jenkins setup
@@ -105,7 +105,7 @@ Once both the above steps are done click on Save.
 
 2) #### Skipping all the checks on the Jenkins file comment the checkov scan lines accordingly with # (sure to shell)
 
-This is the definition of a CI-CD with Terraform and slack
+This is the definition of a CI-CD with Terraform intergrated with slack
 
 ## Finally observe the whole flow and understand the integrations :) 
 # Happy learning, everyone 😊 😊
